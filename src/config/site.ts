@@ -116,7 +116,7 @@ export const siteConfig = {
     {
       name: "GitHub",
       icon: Github,
-      href: "https://github.com/jonra1993",
+      href: "https://github.com/vargasjona",
     },
     {
       name: "Linkedin",
