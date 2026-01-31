@@ -1,0 +1,33 @@
+# robots.txt for https://vargasjona.github.io
+# Allow search engines and AI tools to index the site
+
+# Default: allow all crawlers
+User-agent: *
+Allow: /
+
+# OpenAI (ChatGPT)
+User-agent: GPTBot
+Allow: /
+
+# Google AI (Bard / Gemini)
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic (Claude)
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Sitemap (helps search engines discover your pages)
+Sitemap: https://vargasjona.github.io/sitemap.xml
